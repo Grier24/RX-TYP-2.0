@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	font-size:16px;
+	color: black;
+	background-image: url("imgs/photo.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+.container{
+	width:100%;
+	max-width:1000px;
+	margin: 0 auto;
+	justify-content:center;
+}
+
+.header{
+	font-family: 'Neucha', cursive;
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size:40px;
+}
+
+#logo{
+	font-family: 'Righteous', cursive;
+	color:black;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.nav{
+	text-transform: uppercase;
+}
+
+.nav__link{
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	color:black;
+	margin: 0 15px;
+}
+
+.nav__link:hover{
+	color:blue;
+}
+
+.block-img{
+	font-size:18px;
+	width:1000px;
+	height:360px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#photo1{
+	display:flex;
+	top:142px;
+	left:175px;
+	position:relative;
+	width:345px;
+	height:335px;
+	background: yellow;
+}
+
+#photo1:hover img{
+	opacity:0;
+}
+
+#photo1:hover #info1{
+	opacity:1;
+}
+
+#photo2{
+	display:flex;
+	top:142px;
+	left:250px;
+	position:relative;
+	width:345px;
+	height:335px;
+	background: yellow;
+}
+
+#photo2:hover img{
+	opacity:0;
+}
+
+#photo2:hover #info2{
+	opacity:1;
+}
+
+#photo3{
+	display:flex;
+	top:142px;
+	left:323px;
+	position:relative;
+	width:345px;
+	height:335px;
+	background: yellow;
+}
+
+#photo3:hover img{
+	opacity:0;
+}
+
+#photo3:hover #info3{
+	opacity:1;
+}
+
+#info1{
+	position:absolute;
+	opacity:0;
+	color:black;
+	top:7px;
+	left:10px;
+	line-height:30px;
+}
+
+#info2{
+	position:absolute;
+	opacity:0;
+	color:black;
+	top:7px;
+	left:10px;
+	line-height:30px;
+}
+
+#info3{
+	position:absolute;
+	opacity:0;
+	color:black;
+	top:7px;
+	left:10px;
+	line-height:30px;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
